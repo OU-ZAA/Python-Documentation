@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Python Documentation</title>
+</head>
+<body>
+  <nav id="navbar" class="navbar">
+    <header class="title">Python Documentation</header>
+    <ul class="nav">
+      <li class="nav-links">
+        <a class="nav-link" href="#introduction">Introduction</a>
+      </li>
+      <li class="nav-links">
+        <a class="nav-link" href="#comments">Comments</a>
+      </li>
+      <li class="nav-links">
+        <a class="nav-link" href="#variables">Variables</a>
+      </li>
+      <li class="nav-links">
+        <a class="nav-link" href="#numbers">Numbers</a>
+      </li>
+      <li class="nav-links">
+        <a class="nav-link" href="#strings">Strings</a>
+      </li>
+      <li class="nav-links">
+        <a class="nav-link" href="#reference">Reference</a>
+      </li>
+    </ul>
+  </nav>
+  <main id="main-doc" class="main-doc">
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+      <p>It used for:</p>
+      <ul>
+        <li>web development (server side)</li>
+        <li>software development,</li>
+        <li>mathematics,</li>
+        <li>system scripting.</li>
+      </ul>
+      <h3>Python Syntax compared to other programming languages</h3>
+      <p>Python was designed for readability, and has some similarities to the English language with influence from mathematics.</p>
+      <p>Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</p>
+      <p>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</p>
+    </section>
+    <section class="main-section" id="comments">
+      <header>Comments</header>
+        <p>Python has commenting capability for the purpose of in-code documentation.</p>
+        <div class="code">
+          <code>#This is a comment</code>
+          <br>
+          <code>print("Hello, World!")</code>
+        </div>
+    </section>
+    <section class="main-section" id="variables">
+      <header>Variables</header>
+      <p>Variables are containers for storing data values.</p>
+      <p>Unlike other programming languages, Python has no command for declaring a variable.</p>
+      <p>A variable is created the moment you first assign a value to it.</p>
+      <div class="code">
+        <code>x = 5</code>
+        <br>
+        <code>y = 'john'</code>
+      </div>
+      <h3>Variable Names</h3>
+      <p>A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:</p>
+      <ul>
+        <li>A variable name must start with a letter or the underscore character</li>
+        <li>A variable name cannot start with a number</li>
+        <li>A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )</li>
+        <li>Variable names are case-sensitive (age, Age and AGE are three different variables)</li>
+      </ul>
+    </section>
+    <section class="main-section" id="numbers">
+      <header>Numbers</header>
+      <p>The are three numeric types in Python:</p>
+      <ul>
+        <li>
+          <div class="code">
+            <code>int</code>
+          </div>
+          <ul>
+            <li>Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="code">
+            <code>float</code>
+          </div>
+          <ul>
+            <li>Float, or "floating point number" is a number, positive or negative, containing one or more decimals.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="code">
+            <code>complex</code>
+          </div>
+          <ul>
+            <li>Complex numbers are written with a "j" as the imaginary part</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="main-section" id="strings">
+      <header>Strings</header>
+      <p>String literals in python are surrounded by either single quotation marks, or double quotation marks.</p>
+      <p>'hello' is the same as "hello".</p>
+      <p>You can display a string literal with the print() function:</p>
+      <div class="code"> 
+        <code>printf("Hello")</code>
+        <br>
+        <code>printf('Hello')</code>
+      </div>
+    </section>
+    <section class="main-section" id="reference">
+      <header>Reference</header>
+      <p>All the information in the documentation is from <a id="Reference" href="https://www.w3schools.com/python/default.asp" target="_blank">w3schools</a>.</p>
+    </section>
+    <p id="created">Created by Mohammed Ou-zaa with ❤️</p>
+  </main>
+</body>
+</html>
