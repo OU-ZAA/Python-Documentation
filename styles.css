@@ -50,7 +50,7 @@ header{
 .main-doc{
   float: right;
   padding: 40px;
-  width: 60%;
+  width: 70%;
   background: var(--main-color);
 }
 p, li{
